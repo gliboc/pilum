@@ -12,4 +12,6 @@
     (targets parser.ml parser.mli)
     (deps parser.mly)
     (action (chdir %{workspace_root}
-                (run %{bin:menhir} --trace %{deps}))))
+                (run %{bin:menhir} %{deps}))))
+
+; in case the parser has problems : add --trace --explain to the run of menhir to debug
