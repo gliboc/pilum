@@ -1,7 +1,9 @@
 # pilum
 
 Right now this tool allows to parse files or enter interactively
-rewriting systems with rules of the form `expr → expr`.
+rewriting systems with rules of the form `expr → expr`, and to
+extract their dependency pairs (cf. Thomas Arts, Jürgen Giesl,
+_Termination of term rewriting using dependency pairs_).
 
 The directory `exos` contains a few examples of such systems.
 
