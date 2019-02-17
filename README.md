@@ -14,3 +14,9 @@ either load an example file or try the REPL.
 The normal way to build this executable is by using [dune](https://github.com/ocaml/dune) with
 the commands `dune build ./main.exe` and `dune exec ./main.exe`
 (with, or without arguments)
+
+## Todo
+
+- create a grammar for rewriting systems in Coq
+- translate the parsed systems into this grammar
+- generate a Coq file in order to prove termination using high-level libraries (try [color](http://color.inria.fr/))
